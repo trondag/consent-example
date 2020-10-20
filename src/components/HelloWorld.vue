@@ -12,15 +12,47 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Personopplysninger vi samler inn
+              <v-banner
+              single-line> 
+                <v-icon color="blue">mdi-account-arrow-right</v-icon> Personopplysninger vi samler inn<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu diam sed ipsum ornare ornare. Pellentesque eu orci a urna vulputate dictum a quis ligula. Donec pretium lacinia posuere. Suspendisse non diam elit. Nulla sagittis ligula quis neque facilisis, ut maximus nunc ullamcorper. Nam pharetra ipsum in magna luctus, quis elementum ligula semper. Quisque imperdiet vehicula mauris a dictum. Proin maximus accumsan neque condimentum consequat. Aliquam euismod mi laoreet sem faucibus dictum.
+              Vi samler vi inn følgende informasjon om deg:
+              <div class="ma-2">
+                <v-chip class="ma-2" label text-color="white" color="green"><v-icon>mdi-clipboard-account</v-icon>Navn</v-chip>
+                <v-chip class="ma-2" label text-color="white" color="pink"><v-icon>mdi-at</v-icon>Epostadresse</v-chip>
+                <v-chip class="ma-2" label text-color="white" color="purple"><v-icon>mdi-ip-network</v-icon>IP-adresse</v-chip>
+                <v-chip class="ma-2" label text-color="white" color="blue"><v-icon>mdi-map-marker-path</v-icon>Hvordan du beveger deg rundt på vårt websted</v-chip>
+                </div>
+              <v-expansion-panels>                
+              <v-expansion-panel>
+                <v-expansion-panel-header>Mer informasjon</v-expansion-panel-header>
+                <v-expansion-panel-content>
+                  <b>Navn</b>
+                  <p>Navnet ditt samles inn dersom du registrerer en brukerkonto i vårt system. Navnet ditt lagres på en database i England og en i USA. AWS er selskapet som databasene ligger hos.</p>
+                  <br>
+                  <b>Epostadresse</b>
+                  <p>
+                    Epostadressen din samles inn dersom du registrerer en brukerkonto i vårt system eller melder deg på nyhetsbrev. Eposten lagres på en database i England og en i USA. AWS er selskapet som databasene ligger hos
+                  </p>
+                  <br>
+                  <b>IP-adresse</b>
+                  <p>
+                    IP-adressen din lagres dersom du samtykker til det i dialogboksen som dukker opp med en gang du besøker vårt nettsted første gang.
+                    Adressen blir lagret to databaser, en i England og en i USA. AWS er selskapet disse databasene ligger hos.
+                  </p>
+                </v-expansion-panel-content>
+              </v-expansion-panel>
+              </v-expansion-panels>
             </v-expansion-panel-content>
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvordan vi bruker personopplysningene
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-reactivate</v-icon> Hvordan vi bruker personopplysningene<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -28,7 +60,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvordan vi deler dine personopplysninger med andre parter
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-group</v-icon> Hvordan vi deler dine personopplysninger med andre parter<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -36,7 +71,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvilke parter deler hvilke personopplysninger med oss?
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-switch</v-icon> Hvilke parter deler hvilke personopplysninger med oss?<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -47,7 +85,10 @@
         <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvordan eksportere personopplysninger?
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-details</v-icon> Hvordan eksportere personopplysninger?<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -55,7 +96,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvordan slette personopplysningene?
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-remove</v-icon> Hvordan slette personopplysningene?<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -63,7 +107,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Hvordan endre/korrigere personopplysninger?
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-edit</v-icon> Hvordan endre/korrigere personopplysninger?<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -71,7 +118,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Slik blir du varslet dersom vi endrer personopplysningene
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-alert</v-icon> Slik blir du varslet dersom vi endrer personopplysningene<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
@@ -79,7 +129,10 @@
           </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
-              Slik kommer du i kontakt med behandlingsansvarlig
+              <v-banner
+              single-line> 
+              <v-icon color="blue">mdi-account-tie</v-icon> Slik kommer du i kontakt med behandlingsansvarlig<v-spacer></v-spacer>
+              </v-banner>
             </v-expansion-panel-header>
             <v-expansion-panel-content>
 
